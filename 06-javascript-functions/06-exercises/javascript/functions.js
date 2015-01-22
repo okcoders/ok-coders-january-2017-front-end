@@ -16,7 +16,11 @@
  * console.log( hugeNumber() ) -> 18446744073709552000
  */
 
+function hugeNumber() {
+	return Math.pow(2, 64);
+}
 
+console.log(hugeNumber());
 
 
 /* 2. declare a function called testIt that takes one parameter,
@@ -35,6 +39,20 @@
  * testIt(0); -> "0 is zero"
  * testIt(100); -> "100 is postive"
  */
+
+ function testIt(x) {
+ 	switch (x) {
+ 		case 0: console.log(x + " is zero.");
+ 		break;
+ 		default:
+ 			if (x < 0) console.log(x + " is negative.");
+ 			else console.log(x + " is positive.");
+ 			break;
+ 	}
+
+ }
+
+ testIt(100);
 
 
 
@@ -87,8 +105,8 @@ function bar(x) {
 
 /* uncomment the next three lines one at a time and run the program */
 
-// foo(12);
-// foo(15);
-// bar(12);
+ foo(12);
+ foo(15);
+ //bar(12);
 
 
