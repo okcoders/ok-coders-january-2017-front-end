@@ -100,7 +100,7 @@ HTML includes a `style` tag in which style definitions can be collected. Place t
 			div {
 				border: 1px solid black;
 			}
-		</styl>
+		</style>
 	</head>
 	...
 
