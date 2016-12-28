@@ -68,46 +68,12 @@ Use the `touch` command and `echo` with *redirection* to create the file and add
 
 By itself, `node ./bin/www` is the command that starts the web application and is the same command that is used by `npm start`.
 
-View the application using `foreman`, a utility used by Heroku to start a  web application. Foreman can also be used to start an application locally. **On Windows**, foreman may not work. See the note below.
+You can test the application as before using `npm start` and viewing it at the URL:
 
-	$ foreman start
-	
-Foreman uses a slightly different URL to view the application:
+	http://localhost:3000/
 
-	http://localhost:5000/
 
-Node that foreman runs the web server on port 5000.
-
-**On Windows**, foreman may not work. If foreman does not work, continue starting the app with `npm start`, and continue using the original URL with port 3000 in your web browser.
-
-<!--
-The command may not work becuase Heroku does not set up the foreman program correctly. If foreman doesn't work on Windows, modify the *PATH variable* to let Git Bash know where foreman is.
-
-Follow the instructions here to modify your *System Path* variable: [how-to-set-the-windows-path-in-windows-7](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx)
-
-You need to add the following text to your path variable: `;C:\Program Files (x86)\Heroku\ruby-1.9.2\bin`, including that semicolon at the beginning.
-
-Restart Git Bash for the changes to your path to take effect. The terminal should now be able to find foreman:
-
-	$ which foreman
-	/c/Program Files (x86)/Heroku/ruby-1.9.2/bin/foreman
-
-It's possible that foreman will still not work. Execute `foreman` in the console. If there is an error about a *bad interpreter*, install an older version of foreman. The error looks like:
-
-	$ foreman start
-	sh.exe": /c/Program Files (x86)/Heroku/ruby-1.9.2/bin/foreman: "c:/Program: bad interpreter: No such file or directory
-	
-Install an older version of foreman with:
-
-	$ gem uninstall foreman
-	$ gem install foreman -v 0.61
-
-Type `Y` and press enter when asked if you want to remove the executable.
-
-If you cannot get foreman working on Windows, continue to start the web application with `npm start`.
--->
-
-Use Control-C (^C) again to stop foreman or node:
+Use Control-C (^C) again to stop node:
 
 	$ ^C
 
@@ -127,7 +93,7 @@ Add and commit the project's files to the git repository:
 	
 You are now ready to use git to upload, or *push*, your application to Heroku's servers. Use Heroku's command line utility to first create a new Heroku application:
 
-	$ mbp-phil:heroku-test node-app$ heroku create
+	$ heroku create
 	Creating desolate-brook-2377... done, stack is cedar
 	http://desolate-brook-2377.herokuapp.com/ | git@heroku.com:desolate-brook-2377.git
 	Git remote heroku added
