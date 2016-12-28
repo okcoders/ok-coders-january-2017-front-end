@@ -158,4 +158,4 @@ Confirm your changes on heroku:
 	
 Continue to modify the application by adding content to the public directory. Try adding a profile.html page with information about you. Include links to your social media pages if you have any or some of your favorite sites, and include a picture (it doesn't have to be of you).
 
-Every time you make changes to the application, confirm those changes locally by visiting the page at the localhost address, add the changes to the git repository and commit them, and push them to heroku. Finaly, always confirm that the changes appear on the public server.
+Every time you make changes to the application, confirm those changes locally by visiting the page at the localhost address, add the changes to the git repository and commit them, and push them to heroku. Finally, always confirm that the changes appear on the public server.
