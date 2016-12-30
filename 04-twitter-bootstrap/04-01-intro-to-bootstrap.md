@@ -27,7 +27,7 @@ This chapter will look at installing bootstrap, typography, common components, a
 
 <!-- lets get in the habit of using git -->
 
-First make sure you are using bootstrap 3 with the purple pages. Download the bootstrap files from the homepage and unzip them. Install the files in the public directory of an express application. Place the *css* files in *stylesheets*, the *js* files in *javascripts*, and the *fonts* files in a *fonts* directory that you create in *public*.
+First make sure you are using bootstrap 3 with the purple pages. Download the bootstrap files from the homepage and unzip them. Install the files in the public directory of an express application. Place the contents of the *css* folder into *stylesheets*, the contents of the *js* folder into *javascripts*, and the contents of the *fonts* folder into a *fonts* directory that you create in *public*.
 
 Examine the `bootstrap.css` file. Notice that it's just a large collection of css classes. The file begins with what is called *normalization*, overriding all the default browser styles so that pages look consistent across browsers and operating systems. Then it builds up styles for the custom classes that we'll be using.
 
