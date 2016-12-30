@@ -186,7 +186,7 @@ A modal dialog isolates the interaction on the page so that the dialog receives 
 </div>
 ```
 
-Click on the *Launch demo modal* button. A dialog appears that must be closd before the rest of the page is usable. Let's break the markup down for this component.
+Click on the *Launch demo modal* button. A dialog appears that must be closed before the rest of the page is usable. Let's break the markup down for this component.
 
 On the button, the `data-toggle` attribute lets bootstrap know this button  shows something. Bootstrap's javascript knows to show the modal below it because the button's `data-target` attribute is set to the modal's `id`.
 
