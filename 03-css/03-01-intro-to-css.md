@@ -80,7 +80,7 @@ Comments may be added to a stylesheet by placing them inside a `/* ... */` group
 
 ## Style Sheets
 
-Delcarations must be defined in an html document or referenced from it in order to take effect. There are three ways to include css in an html document:
+Declarations must be defined in an html document or referenced from it in order to take effect. There are three ways to include css in an html document:
 
 **Inline**
 
