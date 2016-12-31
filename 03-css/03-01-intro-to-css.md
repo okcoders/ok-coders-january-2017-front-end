@@ -202,7 +202,7 @@ Attribute selectors target elements with certain attribute values. Define an att
 
 html
 
-	<input type='text' required='required'>
+	<input type='text' required='anything'>
 	
 css
 
