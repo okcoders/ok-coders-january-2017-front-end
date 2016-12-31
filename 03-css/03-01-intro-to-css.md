@@ -44,7 +44,7 @@ CSS provides shortcuts that allow you to define many properties in one declarati
 		border: 1px solid black;
 	}
 	
-Formally, it's syntax is:
+Formally, its syntax is:
 
 	selector {
 		border: width style color
