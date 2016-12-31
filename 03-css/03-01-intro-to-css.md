@@ -166,7 +166,7 @@ Many elements can have the same class, and elements of different types can have 
 
 An element can also have many classes. Separate the classes with a space:
 
-	<div class='big bold falvor'>
+	<div class='big bold flavor'>
 
 Which will apply the styles from three different class selectors:
 
