@@ -192,7 +192,7 @@ Create two class, `float-right` and `float left` and apply them to elements to s
 		float: left;
 	}
 
-When you want to prevent an element from wrapping alongside a floated element, for example, when you want one paragraph to wrap around a floated image but not the secon,d you must *clear* the second. Create a class `clear-it` that you can apply to those kinds of elements:
+When you want to prevent an element from wrapping alongside a floated element, for example, when you want one paragraph to wrap around a floated image but not the second, you must *clear* the second. Create a class `clear-it` that you can apply to those kinds of elements:
 
 	.clear-it {
 		clear: both;
