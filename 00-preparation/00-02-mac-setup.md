@@ -36,7 +36,7 @@ If the dialog box does not appear or you get an '*command not found*' error, dow
 
 ## Configure Git
 
-Set your global git username and password. At the terminal, type the following two commands. Press enter after each one:
+Set your global git user name and email. At the terminal, type the following two commands. Press enter after each one:
 
 	git config --global user.name "Your Name"
 	git config --global user.email your@email.address
