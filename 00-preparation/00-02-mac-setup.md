@@ -11,7 +11,7 @@ Also ensure that you have installed the latest updates. Again click on the *Appl
 
 Install the following software by downloading it at these urls:
 
-[Sublime Text](http://www.sublimetext.com/)
+[Sublime Text](https://www.sublimetext.com/)
 
 This is the free text editor we will be using in class. 
 
