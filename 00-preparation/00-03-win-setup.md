@@ -7,7 +7,7 @@ You must be running a recent version of Windows, at least Windows Vista or highe
 
 Install the following software by downloading it at these urls:
 
-[Sublime Text](http://www.sublimetext.com/). 
+[Sublime Text](https://www.sublimetext.com/). 
 
 This is the free text editor we will be using in class. 
 
