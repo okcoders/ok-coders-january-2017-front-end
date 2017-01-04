@@ -55,7 +55,7 @@ Install Node.js: At the Terminal, type the following command and press return:
 
 	brew install node
 
-Install Express: At the Terminal, type the following two commands and press return after each one:
+Install Express: At the Terminal, type the following command and press return: 
 
 	npm install -g express-generator
 
