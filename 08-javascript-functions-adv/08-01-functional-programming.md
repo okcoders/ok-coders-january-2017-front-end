@@ -1,4 +1,4 @@
-OK Coders: Lesson 8, Functional Programming
+Javascript: Functional Programming
 ===================================
 
 Javascript offers advanced capabilities with its functional design. We know that functions encapsulate re-usable blocks of code and accept parameters which so far have been simple values like numbers or strings. What if we want to encapsulate re-usable blocks of code but have more flexibility than simply providing a value or two as a parameter. What if we want the parameter itself to perform some kind of additional computation in the context of the original function?

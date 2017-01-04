@@ -1,4 +1,4 @@
-## Variables and Values
+# Javascript: Variables and Values
 
 Right now, when one of our expressions is evaluated we lose the result. Node prints it out to the console and then forgets about it. Normally we'll want to hold on to the result of an expression so we can use it later. To do this, we use *variables*.
 
