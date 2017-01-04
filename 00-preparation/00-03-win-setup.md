@@ -21,7 +21,7 @@ Windows does come with a built-in command prompt, but we will be using another T
 
 ## Configure Git
 
-Set your global git username and password. At the terminal, type the following two commands. Press enter after each one:
+Set your global git user name and email. At the terminal, type the following two commands. Press enter after each one:
 
 	git config --global user.name "Your Name"
 	git config --global user.email your@email.address
