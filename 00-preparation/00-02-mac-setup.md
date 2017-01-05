@@ -34,6 +34,8 @@ If the dialog box does not appear or you get an '*command not found*' error, dow
 - Mac OS 10.9: [Command Line Utilities for Mac OS 10.9 Mavericks](https://s3.amazonaws.com/okcoders/command_line_tools_for_osx_mavericks_april_2014.dmg) 
 - Mac OS 10.8: [Command Line Utilities for Mac OS 10.8 Mountain Lion](https://s3.amazonaws.com/okcoders/command_line_tools_for_osx_mountain_lion_april_2014.dmg)
 
+If your operating system is newer than Mavericks, you may just install it by typing `xcode-select --install` in your terminal. This will initiate the installation (or update) process for the command line utililties. Follow the instructions to finish.
+
 ## Configure Git
 
 Set your global git user name and email. At the terminal, type the following two commands. Press enter after each one:
