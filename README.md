@@ -8,36 +8,36 @@
 This class will be a shorter version of pervious sessions (4 weeks as opposed to 8). We will cover some basic foundational principles in front end development, and then move on to slightly more advanced topics. This short course is designed to provide you with the foundation to properly dive into the world of web development. No prior experience in any type of development is required. Just the ability to use a computer and the willingness to learn! The schedule is as follows: 
 
 #### Week 1
-- Command Line
+- 01: Command Line
 	- Bash
 	- Git
 	- Heroku
-- HTML
+- 02: HTML
 	- Intro to HTML
 	- Static HTML with Express
 
 #### Week 2
-- CSS
+- 03: CSS
 	- Intro to CSS
 	- The Box Model
 	- Positioning & Layout
-- Twitter Bootstrap
+- 05: Javascript Basics
+	- Intro to Javascript
+	- Variables and Values
+	- Program Structure
+
+#### Week 3
+- 04: Twitter Bootstrap
 	- Intro to Bootstrap
 	- Forms
 	- Components
 	- Grid System
-
-#### Week 3
-- Javascript Basics
-	- Intro to Javascript
-	- Variables and Values
-	- Program Structure
-- Javascript Functions
+- 06: Javascript Functions
 
 #### Week 4
-- Javascript Data Structures
+- 07: Javascript Data Structures
 	- Objects
 	- Arrays
-- Advanced Javascript Functions
+- 08: Advanced Javascript Functions
 	- Functional Programming
 
