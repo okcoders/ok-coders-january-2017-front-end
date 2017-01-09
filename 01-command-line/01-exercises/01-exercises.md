@@ -5,7 +5,7 @@ Complete all homework assignments before coming to the next class or as otherwis
 
 ### 1. Create an express app and upload it to heroku
 
-This evening's homework assignment is straightforward: create a new Express web application just like we did in class and upload it to Heroku. Refer to the [lesson material from today's class](https://github.com/okcoders/bash-heroku-class) if you run into trouble.
+This evening's homework assignment is straightforward: create a new Express web application just like we did in class and upload it to Heroku. Refer to the [lesson material from today's class](https://github.com/okcoders/ok-coders-january-2017-front-end/tree/master/01-command-line) if you run into trouble.
 
 This homework assignment is designed to reinforce your understanding of the command line and of git and heroku.
 
