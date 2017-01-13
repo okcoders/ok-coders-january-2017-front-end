@@ -9,7 +9,7 @@ The upcoming javascript chapters will focus on practical examples but will alway
 
 ## References
 
-[Eloquent JavaScript](http://eloquentjavascript.net/chapter2.html)
+[Eloquent JavaScript](http://eloquentjavascript.net/02_program_structure.html)
 
 Basic JavaScript chapter. **Must read.**
 
