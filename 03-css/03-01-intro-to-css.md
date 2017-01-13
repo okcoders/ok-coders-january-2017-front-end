@@ -341,7 +341,7 @@ When a style is not overridden by a higher priority set of declarations, then ea
 
 Child elements in the html inherit some of the style of their parents. That is, styles cascade down the document structure. Only aesthetic styling such as fonts and colors are inherited, not layout styling such as position or margin.
 
-For example, if you add the `font` attribute to the `div` selector, any elements contained inside a div tag will have the same font, unless you specifcially override the font in another style declaration.
+For example, if you add the `font` attribute to the `div` selector, any elements contained inside a div tag will have the same font, unless you specifically override the font in another style declaration.
 
 **Additivity**
 
