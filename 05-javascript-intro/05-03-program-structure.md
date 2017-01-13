@@ -239,4 +239,4 @@ The syntax for a while loop is:
 		Statements
 	}
 
-There are a number of other kinds of loops and other kinds of ways to change the order of execution in a program. We'll discuss them in later classes. In the meantime, be sure to read and re-read the [second chapter of Eloquent JavaScript](http://eloquentjavascript.net/chapter2.html), making sure you understand what is going on with variables, values and control flow.
+There are a number of other kinds of loops and other kinds of ways to change the order of execution in a program. We'll discuss them in later classes. In the meantime, be sure to read and re-read the [second chapter of Eloquent JavaScript](http://eloquentjavascript.net/02_program_structure.html), making sure you understand what is going on with variables, values and control flow.
