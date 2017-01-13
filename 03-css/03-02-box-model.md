@@ -153,7 +153,7 @@ Shortcuts:
 	
 ## Sizing is additive
 
-Box properties can be confusing once you begin to combine them. For example, place two divs on a page and add a border to them. Set their size to a fixed value. Five them some margin to distinguish them:
+Box properties can be confusing once you begin to combine them. For example, place two divs on a page and add a border to them. Set their size to a fixed value. Give them some margin to distinguish them:
 
 	<!DOCTYPE html>
 	<html>
@@ -180,7 +180,7 @@ Then add padding to one of them:
 
 Notice that its width increases, which may not be what you expected because you set the width to a fixed value of 500 pixels.
 
-Remember that the `width` and `height` attributes set the size of the element's *content*, not the entire space occupied by the element. The entire space occupied by an elemente is caluculated from the combined sizes, padding, border and margins.
+Remember that the `width` and `height` attributes set the size of the element's *content*, not the entire space occupied by the element. The entire space occupied by an element is calculated from the combined sizes, padding, border and margins.
 
 This means that an element starts with its content size, then the padding is added to that, then the border is added to that, and finally the margin is added to all that.
 
