@@ -25,7 +25,7 @@ For example, let's say the temperature is 80°F and the chance of precipitation 
 
 		Math.round(x)
 
-		e.g. Math.random(32.1233424) --> 32
+		e.g. Math.round(32.1233424) --> 32
 
 Don't forget your conditional statements!
 
