@@ -126,7 +126,7 @@ Fix the template so that the `link` and `style` tags point to the right files:
 	<script src="javascripts/bootstrap.min.js"></script>
 	...
 
-All that is neeed now is to add the bootstrap classes to the form tags. Once again, simply follow the example documentation. Start by adding the `role="form"` attribute to the form itself:
+All that is need now is to add the bootstrap classes to the form tags. Once again, simply follow the example documentation. Start by adding the `role="form"` attribute to the form itself:
 
 	<form role="form">
 
