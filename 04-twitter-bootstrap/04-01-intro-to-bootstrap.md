@@ -128,13 +128,13 @@ Add a few more elements to the page. Start with a table below the last paragraph
         <th>Favorite Music</th>
       </tr>
       <tr>
-        <td>Philip</td>
-        <td>Dow</td>
-        <td>Electronic</td>
+        <td>Elvis</td>
+        <td>Presley</td>
+        <td>Rock</td>
       </tr>
       <tr>
         <td>Michael</td>
-        <td>Jackason</td>
+        <td>Jackson</td>
         <td>Pop</td>
       </tr>
     </table>
