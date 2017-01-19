@@ -146,7 +146,7 @@ Use functions in other statements as well, such as `if else` statements:
 		console.log("you're young!");
 	}
 	
-	if ( age <= 21 ) {
+	if ( age >= 21 ) {
 		printOld();
 	} else {
 		printYoung();
