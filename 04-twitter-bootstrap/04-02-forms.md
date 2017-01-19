@@ -5,7 +5,7 @@ Forms are an important part of any web application. They allow a site to gather 
 
 Forms are composed of input elements such as text fields, larger text areas, selection menus, checkboxes and file selectors. Often a label accompanies each input element to identify its purpose to the user. To prevent the elements from appearing disorganized, the labels and elements are typically grouped. Bootstrap provides styling for each component and offers differnet ways to group elements together.
 
-Create a new page *forms.html* in your application's *public* directory and copy the bootstrap template into it, but don't fix the stylesheet and javascript links just yet. Let's start a form without the bootstrap styling to see how it looks.
+Create a new page *forms.html* in your application's *public* directory and copy the bootstrap template into it, but **don't** fix the stylesheet and javascript links just yet. Let's start a form without the bootstrap styling to see how it looks.
 
 ## References
 
