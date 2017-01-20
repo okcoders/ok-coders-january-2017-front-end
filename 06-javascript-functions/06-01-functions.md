@@ -273,7 +273,7 @@ The parameter list is a comma separated list of names that will be treated like 
 	console.log( addTen(12) );
 	console.log( addTen(41) );
 
-The function has a single paramater named `x` which is available as a variable inside the function's code block. All the function does is return that number plus ten.
+The function has a single parameter named `x` which is available as a variable inside the function's code block. All the function does is return that number plus ten.
 
 Call the function as you normally would but *pass an argument* to it in the parenthesis, namely, the number you want to add ten to. *Parameter* and *argument* are technical terms. When you define a function, you define its parameters. When you call it, you pass arguments to it.
 
@@ -283,7 +283,7 @@ Remember that node excecutes code from the inside out with parenthesis grouping 
 
 Here, `12` evalutes to 12 which is used in the function call to `addTen`. Inside add ten, the parameter `x` takes on the argument's value of `12`, which is used in the return statement so that the function call results in, or evaluates to `32`. 32 is then used in the function call to `console.log`, so that the result of the statement is to print out some number with ten added to it.
 
-A function can take more than one argument. Simply define it with more than one paramater. Define an add function:
+A function can take more than one argument. Simply define it with more than one parameter. Define an add function:
 
 	function add(x, y) {
 		return x + y;
@@ -313,7 +313,7 @@ The function's parameter doesn't care what kind of data `name` is, but you have 
 
 **Always be aware of what type of data a function expects.**
 
-We'll see that javascript programmers often write functions so that they accept more than one type of data in a single paramater. The function does different things depending on the type of data it is called with. It does one thing if you call it with a number but another thing if you call it with a string, for example.
+We'll see that javascript programmers often write functions so that they accept more than one type of data in a single parameter. The function does different things depending on the type of data it is called with. It does one thing if you call it with a number but another thing if you call it with a string, for example.
 
 **Pure functions**
 
@@ -339,17 +339,17 @@ Most javascript functions you use and write won't be pure. Side effects are nece
 
 Scope is an essential concept in programming languages. Scope defines when an identifier is valid. Recall that an identifier is the name of a variable or the name of a function. Scope limits when those names can be used.
 
-Consider the function paramater like `name` in our earlier example:
+Consider the function parameter like `name` in our earlier example:
 
 	function sayHelloTo(name) {
 		console.log("hello " + name);
 	}
 	
-Because it is a paramater, `name` is scoped to the `sayHelloTo` function. Its use is limited to that function. Try to refer to `name` anywhere else in the program and you receive a:
+Because it is a parameter, `name` is scoped to the `sayHelloTo` function. Its use is limited to that function. Try to refer to `name` anywhere else in the program and you receive a:
 
 	ReferenceError: name is not defined
 
-`name` is like a variable that can only be used inside the function. What if you have a second function with its own `name` paramater:
+`name` is like a variable that can only be used inside the function. What if you have a second function with its own `name` parameter:
 
 	function sayHelloTo(name) {
 		console.log("hello " + name);
@@ -359,7 +359,7 @@ Because it is a paramater, `name` is scoped to the `sayHelloTo` function. Its us
 		console.log("goodbye " + name);
 	}
 
-Here we have two instances of name, but in each case, because `name` is paramater to a function, it is valid only inside that function. And because it is valid only inside its function, the identifier `name` can be used more than once. Try to refer to it outside either function and a `ReferenceError` occurs.
+Here we have two instances of name, but in each case, because `name` is parameter to a function, it is valid only inside that function. And because it is valid only inside its function, the identifier `name` can be used more than once. Try to refer to it outside either function and a `ReferenceError` occurs.
 
 Another way of saying this is that parameters are *local* to the function in which they appear.
 
@@ -370,7 +370,7 @@ Functions may also expicitly declare variables. A function is just a collection 
 		console.log(greeting + name);
 	}
 	
-Like paramaters, variables declared inside a function are local to that function. They are only valid inside it. Use `greeting` outside the function and an error occurs:
+Like parameters, variables declared inside a function are local to that function. They are only valid inside it. Use `greeting` outside the function and an error occurs:
 
 	ReferenceError: greeting is not defined
 	
@@ -422,7 +422,7 @@ It becomes trickier when you have two identifiers (e.g. variables) with the same
 
 In this case "hello" is used instead of "willkommen" in the `sayHelloTo` function. It is acceptable to define the same variable in more than one scope, for example globally and locally. The rule is that local scope always has priority over global scope. We say that the locally declared variable `greeting` *masks* or *hides* the global variable with the same name.
 
-The same goes for paramater names. A paramater has precedence over a global variable with the same name.
+The same goes for parameter names. A parameter has precedence over a global variable with the same name.
 
 Moreover, you could use the global variable `greeting` somewhere else and it would still have the same value of "willkommen":
 	
@@ -464,7 +464,7 @@ Now you are not declaring a new variable `greeting` locally. You are assigning a
 
 Scope can be a difficult concept even though the rules are straightforward. Begin with global scope. Variables defined at the top level of a program as well as functions defined there all exist in the global scope and can be used from any part of a program.
 
-Each function then has its own local scope where parameter names can be used and local variables can be defined. If a parameter or local variable has the same name as a global identifier, then the paramater or local variable has precedence inside the function. It *masks* the global name.
+Each function then has its own local scope where parameter names can be used and local variables can be defined. If a parameter or local variable has the same name as a global identifier, then the parameter or local variable has precedence inside the function. It *masks* the global name.
 
 In practice you should write your programs so that this is not an issue. The use of global variables is strongly discouraged in modern programming because of the confusion and bugs they can cause. You may need them sometimes, but try to avoid global variables if you can.
 
