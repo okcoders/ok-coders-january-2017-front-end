@@ -39,7 +39,7 @@ andTable(false, false);
 console.log(); // just print a blank line
 
 /*
- * 3. create a functionc called orTable that checks all possible combinations
+ * 3. create a function called orTable that checks all possible combinations
  * of performing the 'or' operation on two boolean parameters
  * and prints out the result of the operation
 

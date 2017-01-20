@@ -5,7 +5,7 @@ Forms are an important part of any web application. They allow a site to gather 
 
 Forms are composed of input elements such as text fields, larger text areas, selection menus, checkboxes and file selectors. Often a label accompanies each input element to identify its purpose to the user. To prevent the elements from appearing disorganized, the labels and elements are typically grouped. Bootstrap provides styling for each component and offers differnet ways to group elements together.
 
-Create a new page *forms.html* in your application's *public* directory and copy the bootstrap template into it, but don't fix the stylesheet and javascript links just yet. Let's start a form without the bootstrap styling to see how it looks.
+Create a new page *forms.html* in your application's *public* directory and copy the bootstrap template into it, but **don't** fix the stylesheet and javascript links just yet. Let's start a form without the bootstrap styling to see how it looks.
 
 ## References
 
@@ -126,7 +126,7 @@ Fix the template so that the `link` and `style` tags point to the right files:
 	<script src="javascripts/bootstrap.min.js"></script>
 	...
 
-All that is neeed now is to add the bootstrap classes to the form tags. Once again, simply follow the example documentation. Start by adding the `role="form"` attribute to the form itself:
+All that is need now is to add the bootstrap classes to the form tags. Once again, simply follow the example documentation. Start by adding the `role="form"` attribute to the form itself:
 
 	<form role="form">
 
