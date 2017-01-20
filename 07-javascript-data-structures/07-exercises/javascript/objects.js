@@ -5,23 +5,18 @@
 // Complete each of the 9 problem by filling in the provided variables
 // with the correct values to get the tests to pass.
 
-function knowIt() {
-  return true;
-}
-
 
 // 1. 
 // Create an object with a `name` property whose value is 'Michael'
 
 var obj1 = { };
-var test1 = knowIt();
+
 
 // 2. 
 // Create an object with a `name` property whose value is 'James' 
 // and and `age` property with the value 48
 
 var obj2 = { };
-var test2 = knowIt();
 
 
 // 3.
@@ -30,7 +25,7 @@ var test2 = knowIt();
 // to define the object slightly differently. 
 // See lecture notes for help
 
-var obj3 = { "happy-days" : true };
+var obj3 = { };
 
 
 // 4.
@@ -42,15 +37,13 @@ var obj4 = {
   music: 'Country'
 };
 
-obj4.music = 'Techno';
-
 
 // 5.
 // Create an object with a `name` property that is itself an object.
 // The name object should have `first` and `last` properties whose
 // values are 'Ada' and 'Lovelace' respectively.
 
-var obj5 = { name: { first: 'Ada', last: 'Lovelace' } };
+var obj5 = { };
 
 
 // 6.
@@ -62,10 +55,7 @@ var obj5 = { name: { first: 'Ada', last: 'Lovelace' } };
 // values are 'Creative Director' and 'NeXT' respectively.
 // Watch the capitalization and syntax!
 
-var obj6 = { 
-  name: { first: 'Susan', last: 'Kare' },
-  job: { title: 'Creative Director', company: 'NeXT' }
-  };
+var obj6 = { };
 
 
 // 7.
@@ -75,10 +65,10 @@ var obj6 = {
 // Remember that you can declare a function and assign it to a variable like:
 
 var func = function() {
-  return 42;
+  // do something
 };
 
-var obj7 = { meaningOfLife: func };
+var obj7 = { };
 
 
 // 8.
@@ -88,10 +78,7 @@ var obj7 = { meaningOfLife: func };
 // e.g. successMsg = 'Completed' or failureMsg = 'Incomplete'
 // Don't redeclare the variables!
 
-var complete = function completed() { successMsg = 'Completed'; };
-var fail = function failed() { failureMsg = 'Failed'; };
-
-var obj8 = { completed: complete, failed: fail };
+var obj8 = { };
 
 // do not modify the following code for problem 8, but examine it 
 // in order to under how it works. make sure you understand the control flow
@@ -116,12 +103,12 @@ function fail(callbacks) {
 succeed(obj8);
 fail(obj8)
 
+
 // 9.
 // Create an object with single function `quadruple` which takes a single numeric
 // paramater and returns its value multipled by 4
 
-var func = function quad(num) { return num*4; }
-var obj9 = { quadruple: func };
+var obj9 = { };
 
 
 
@@ -139,13 +126,13 @@ var obj9 = { quadruple: func };
 // tests
 
 
-if (obj1.name === 'Michael' || test1) {
+if (obj1.name === 'Michael') {
   console.log('test 1 passed');
 } else {
   console.log('test 1 failed *')
 }
 
-if ((obj2.name === 'James' && obj2.age === 48) || test1) {
+if (obj2.name === 'James' && obj2.age === 48) {
   console.log('test 2 passed');
 } else {
   console.log('test 2 failed *')

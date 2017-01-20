@@ -44,7 +44,7 @@ var x1 = 100;
 var absX1 = x1;
 
 var y1 = -100;
-var absY1 = Math.abs(y1);
+var absY1 = y1;
 
 if (absX1 == 100) {
 	console.log("Test 1 passed");
@@ -128,7 +128,7 @@ if (charAtY4 == 'u') {
 // Use the trim() function so that the following tests pass:
 
 var x5 = "   Hello Space        ";
-var trimX5 = x5.trim();
+var trimX5 = x5;
 
 if (trimX5 == "Hello Space") {
 	console.log("Test 8 passed");
@@ -141,7 +141,7 @@ if (trimX5 == "Hello Space") {
 // Use substr() so that the following tests pass:
 
 var x6 = "Hello World";
-var substrX6 = x6.substr(6, x6.length);
+var substrX6 = x6;
 
 if (substrX6 == "World") {
 	console.log("Test 9 passed");

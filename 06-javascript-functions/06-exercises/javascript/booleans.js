@@ -15,12 +15,6 @@
  * console.log( not(false) ); -> "true"
  */
 
- console.log(not(true));
-
- function not(param){
- 	return (!param);
- }
-
 
 /*
  * 2. create a function called andTable that checks all possible combinations
@@ -34,15 +28,7 @@ function andTable(boolean1, boolean2) {
 	if (boolean1 == true && boolean2 == true) {
 		console.log("true && true : true");
 	}
-	else if (boolean1 == true && boolean2 == false) {
-		console.log("true && false : false");
-	}	
-	else if (boolean1 == false && boolean2 == true) {
-		console.log("false && true : false");
-	}	
-	else if (boolean1 == false && boolean2 == false) {
-		console.log("false && false : false");
-	}
+	// fill in the rest with additional else if statements
 }
 
 andTable(true, true);
@@ -84,10 +70,10 @@ orTable(false, false);
  * strings, numbers and booleans
  */
 
-var x = false;
-var y = true;
-var z = 99;
-var q = "ok coders";
+var x;
+var y;
+var z;
+var q;
 
 
 if (!x) {
